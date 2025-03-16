@@ -28,6 +28,10 @@ import hero_img3 from "../assets/images/hero_img3.jpg";
 import hero_img1 from "../assets/images/hero_img1.jpg";
 
 // product images
+import aproduct1 from "../assets/images/aproduct1.jpg";
+import aproduct2 from "../assets/images/aproduct2.jpg";
+import aproduct3 from "../assets/images/aproduct3.jpg";
+import aproduct4 from "../assets/images/aproduct4.jpg";
 import product1 from "../assets/images/product1.jpg";
 import product2 from "../assets/images/product2.jpg";
 import product3 from "../assets/images/product3.jpg";
@@ -58,6 +62,9 @@ import bigzone2 from "../assets/images/bigzone2.jpg";
 import bigzone3 from "../assets/images/bigzone3.jpg";
 import bigzone4 from "../assets/images/bigzone4.jpg";
 import bigzone5 from "../assets/images/bigzone5.jpg";
+
+import abigzone1 from "../assets/images/abigzone1.jpg";
+import abigzone2 from "../assets/images/abigzone2.jpg";
 
 // brand images
 import brand1 from "../assets/images/brand1.png";
@@ -148,6 +155,10 @@ export const staticImages = {
   img1,
   img2,
   product1,
+  aproduct1,
+  aproduct2,
+  aproduct3,
+  aproduct4,
   product2,
   product3,
   product4,
@@ -176,6 +187,8 @@ export const staticImages = {
   bigzone3,
   bigzone4,
   bigzone5,
+  abigzone1,
+  abigzone1,
   brand1,
   brand2,
   brand3,

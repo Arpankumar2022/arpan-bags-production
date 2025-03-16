@@ -124,10 +124,40 @@ const featuredData = [
 const newArrivalData = [
   {
     id: "new-arrival-1",
-    imgSource: staticImages.product1,
-    title: "Knitted Joggers",
+    imgSource: staticImages.aproduct1,
+    title: "Low Budget Bags",
   },
   {
+      id: "new-arrival-1",
+      imgSource: staticImages.aproduct2,
+      title: "Low Budget Bags",
+    },
+    {
+        id: "new-arrival-1",
+        imgSource: staticImages.aproduct3,
+        title: "Low Budget Bags",
+      },
+      {
+          id: "new-arrival-1",
+          imgSource: staticImages.aproduct4,
+          title: "Low Budget Bags",
+        },
+        {
+            id: "new-arrival-1",
+            imgSource: staticImages.aproduct2,
+            title: "Low Budget Bags",
+          },
+          {
+              id: "new-arrival-1",
+              imgSource: staticImages.aproduct3,
+              title: "Low Budget Bags",
+            },
+            {
+                id: "new-arrival-1",
+                imgSource: staticImages.aproduct4,
+                title: "Low Budget Bags",
+              },
+  /*{
     id: "new-arrival-2",
     imgSource: staticImages.product2,
     title: "Full Sleeve",
@@ -156,13 +186,13 @@ const newArrivalData = [
     id: "new-arrival-7",
     imgSource: staticImages.product7,
     title: "Urban Shirts",
-  },
+  },*/
 ];
 
 const savingZoneData = [
   {
     id: "saving-z-1",
-    imgSource: staticImages.bigzone1,
+    imgSource: staticImages.abigzone1,
     title: "Hawaiian Shirts",
     description: "Dress up in summer vibe",
     discount: 50,
@@ -170,7 +200,7 @@ const savingZoneData = [
   },
   {
     id: "saving-z-2",
-    imgSource: staticImages.bigzone2,
+    imgSource: staticImages.abigzone2,
     title: "Printed T-Shirt",
     description: "New Designs Every Week",
     discount: 40,
@@ -178,7 +208,7 @@ const savingZoneData = [
   },
   {
     id: "saving-z-3",
-    imgSource: staticImages.bigzone3,
+    imgSource: staticImages.abigzone2,
     title: "Cargo Joggers",
     description: "Move with style & comfort",
     discount: 50,
@@ -186,7 +216,7 @@ const savingZoneData = [
   },
   {
     id: "saving-z-4",
-    imgSource: staticImages.bigzone4,
+    imgSource: staticImages.abigzone2,
     title: "Urban Shirts",
     description: "Live In Confort",
     discount: 20,
@@ -194,7 +224,7 @@ const savingZoneData = [
   },
   {
     id: "saving-z-5",
-    imgSource: staticImages.bigzone5,
+    imgSource: staticImages.abigzone1,
     title: "Oversized T-Shirts",
     description: "Street Style Icon",
     discount: 60,
@@ -423,8 +453,8 @@ const footerData = [
     title: "Company",
     links: [
       { text: "About Us", url: "/contact" },
-      { text: "Achats Blog", url: "/blog" },
-      { text: "Achatsian", url: "/achatsian" },
+      { text: "Arpan Enterprises", url: "/arpanenterprisesblog" },
+      { text: "Arpan bags Production", url: "/arpanbagsoverview" },
       { text: "Collaboration", url: "/collaboration" },
       { text: "Media", url: "/media" },
     ],
@@ -443,10 +473,10 @@ const footerData = [
     id: "f_location",
     title: "Location",
     lists: [
-      { text: "Tsupport@euphoria.in" },
-      { text: "Highland Strett, A04 Street 4014" },
-      { text: "New York City, USA" },
-      { text: "Phone: +000 999 8888" },
+      { text: "arpansri2022@gmail.com" },
+      { text: "To be updated..." },
+      { text: "To be updated..." },
+      { text: "Phone: 8090226266" },
     ],
   },
 ];

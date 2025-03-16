@@ -183,9 +183,9 @@ const Footer = () => {
         </div>
         <div className="footer-bottom text-center">
           <p className="text-base text-white">
-            Copyright &copy; 2023 &nbsp;
+            Copyright &copy; 2025 &nbsp;
             <Link to="/" className="text-white">
-              Achats site
+              Arpan Bags Production
             </Link>
             &nbsp;. All rights reserved.
           </p>
