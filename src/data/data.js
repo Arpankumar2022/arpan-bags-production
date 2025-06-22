@@ -111,6 +111,24 @@ const featuredData = [
     buttonText: "Explore Items",
   },
   {
+        id: "featured-1",
+        imgSource: staticImages.img1,
+        topText: "Low Price",
+        largeText: "High Coziness",
+        bottomText: "upto 50% off",
+        buttonLink: "/",
+        buttonText: "Explore Items",
+      },
+  {
+      id: "featured-2",
+      imgSource: staticImages.img2,
+      topText: "Beyoung Presents",
+      largeText: "Breezy Summer Style",
+      bottomText: "upto 30% off",
+      buttonLink: "/",
+      buttonText: "Explore Items",
+    },
+  {
     id: "featured-2",
     imgSource: staticImages.img2,
     topText: "Beyoung Presents",
@@ -401,7 +419,7 @@ const feedbackData = [
   {
     id: "feedback-1",
     imgSource: staticImages.test1,
-    name: "Floyd Miles",
+    name: "Anshika",
     designation: "Marketing Manger",
     rating: 3,
     feedbackText:
@@ -410,7 +428,7 @@ const feedbackData = [
   {
     id: "feedback-2",
     imgSource: staticImages.test2,
-    name: "Ronald Richards",
+    name: "Babu",
     designation: "Teacher",
     rating: 4,
     feedbackText:
@@ -419,7 +437,7 @@ const feedbackData = [
   {
     id: "feedback-3",
     imgSource: staticImages.test3,
-    name: "Savannah Nguyen",
+    name: "Santosh Kumar",
     designation: "Student",
     rating: 4,
     feedbackText:
@@ -428,7 +446,7 @@ const feedbackData = [
   {
     id: "feedback-4",
     imgSource: staticImages.test4,
-    name: "Arthur Ramsay",
+    name: "Shagun",
     designation: "Fashion Designer",
     rating: 4,
     feedbackText:

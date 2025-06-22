@@ -13,15 +13,15 @@ const HomeScreenWrapper = styled.main``;
 const HomeScreen = () => {
   return (
     <HomeScreenWrapper>
-      <Hero />
+     {/*  <Hero /> */}
       <Featured />
       <NewArrival />
-      <SavingZone />
-      <Catalog catalogTitle={"Categories For Men"} products={mensCatalog} />
-      <Catalog catalogTitle={"Categories For Women"} products={womensCatalog} />
-      <Brands />
-      <Catalog catalogTitle={"In The LimeLight"} products={limelightCatalog} />
-      <Feedback />
+      {/* <SavingZone /> */}
+      {/* <Catalog catalogTitle={"Categories For Men"} products={mensCatalog} />
+      <Catalog catalogTitle={"Categories For Women"} products={womensCatalog} /> */}
+      {/* <Brands /> */}
+      {/* <Catalog catalogTitle={"In The LimeLight"} products={limelightCatalog} /> */}
+      {/* <Feedback /> */}
     </HomeScreenWrapper>
   );
 };

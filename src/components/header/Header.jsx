@@ -141,7 +141,7 @@ const Header = () => {
                   alt="site logo"
                 />
               </div>
-              <span className="site-brand-text text-outerspace">Arpan Bags</span>
+              <span className="site-brand-text text-outerspace">Arpan Bags Products </span>
             </SiteBrandWrapper>
           </div>
           <NavigationAndSearchWrapper className="flex items-center">
@@ -163,7 +163,7 @@ const Header = () => {
                 })}
               </ul>
             </NavigationMenuWrapper>
-            <form className="search-form">
+            {/* <form className="search-form">
               <InputGroupWrapper className="input-group">
                 <span className="input-icon flex items-center justify-center text-xl text-gray">
                   <i className="bi bi-search"></i>
@@ -174,7 +174,7 @@ const Header = () => {
                   placeholder="Search"
                 />
               </InputGroupWrapper>
-            </form>
+            </form> */}
           </NavigationAndSearchWrapper>
 
           <IconLinksWrapper className="flex items-center">
