@@ -9,6 +9,9 @@ import { breakpoints, defaultTheme } from "../../styles/themes/default";
 import { useDispatch } from "react-redux";
 import { toggleSidebar } from "../../redux/slices/sidebarSlice";
 import { NavLink } from 'react-router-dom';
+import {useState} from 'react';
+import LoginModal from "../popup/LoginModal";
+import RegisterModal from "../popup/RegisterModal";
 
 const NavigationAndSearchWrapper = styled.div`
   column-gap: 20px;
@@ -121,6 +124,22 @@ const Header = () => {
   const location = useLocation();
   const dispatch = useDispatch();
 
+  const [showLogin, setShowLogin] = useState(false);
+  const [showRegister, setShowRegister] = useState(false);
+
+    const openModal = () => setShowLogin(true);
+    const closeModal = () => setShowLogin(false);
+
+    const openLogin = () => {
+      setShowLogin(true);
+      setShowRegister(false);
+    };
+
+    const openRegister = () => {
+      setShowRegister(true);
+      setShowLogin(false);
+    };
+
   return (
     <HeaderMainWrapper className="header flex items-center">
       <Container className="container">
@@ -178,6 +197,9 @@ const Header = () => {
           </NavigationAndSearchWrapper>
 
           <IconLinksWrapper className="flex items-center">
+       <button onClick={openModal}>Login</button>
+      <LoginModal show={showLogin} onClose={() => setShowLogin(false)} />
+     <RegisterModal show={showRegister} onClose={() => setShowRegister(false)} />
             <Link
               to="/wishlist"
               className={`icon-link ${

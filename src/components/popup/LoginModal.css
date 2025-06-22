@@ -1,0 +1,83 @@
+.login-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.login-modal {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease;
+  position: relative;
+  text-align: center;
+}
+
+.login-modal h2 {
+  margin-bottom: 10px;
+}
+
+.login-modal input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.login-btn {
+  background-color: #1e90ff;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background-color: #0d6efd;
+}
+
+.login-footer {
+  margin-top: 20px;
+}
+
+.login-footer a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.close-btn {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  background: transparent;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Slide-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -471,8 +471,7 @@ const footerData = [
     title: "Company",
     links: [
       { text: "About Us", url: "/contact" },
-      { text: "Arpan Enterprises", url: "/arpanenterprisesblog" },
-      { text: "Arpan bags Production", url: "/arpanbagsoverview" },
+      { text: "Arpan bags Products Group", url: "/arpanbagsoverview" },
       { text: "Collaboration", url: "/collaboration" },
       { text: "Media", url: "/media" },
     ],

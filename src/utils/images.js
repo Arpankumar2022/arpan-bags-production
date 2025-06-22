@@ -14,6 +14,7 @@ import google_play from "../assets/images/google_play.jpg";
 import app_store from "../assets/images/app_store.jpg";
 import heart from "../assets/icons/heart.svg";
 import user from "../assets/icons/user.svg";
+import login from "../assets/icons/login.svg";
 import cart from "../assets/icons/cart.svg";
 
 // some random images
